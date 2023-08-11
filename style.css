@@ -9,7 +9,7 @@
 }
 
 .nav-bar{
-height: 70px;
+height: 80px;
 background-color: #0f1111;
 color: white;
 display: flex;
@@ -38,9 +38,9 @@ align-items: center;
 }
  
 .section-intro {
-    height: 1000px;
+    height: 800px;
     background-image: url("photo1.jpg");
-    background-size: contain;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,20 +51,17 @@ align-items: center;
     text-align: center;
     color: #ede2aa;
     font-size: 4em;
-    font-weight: 700;
+    font-weight: 900;
+    z-index: 5;
+    margin-top: 27px;
 }
  
 .section-intro header {
     display: flex;
     flex: 10;
     flex-direction: row;
-    margin-top: 10px;
     justify-content: center;
     
-}
- 
-.link-to-book-wrapper {
-    flex: 1;
 }
  
 .about-section {
